@@ -1,0 +1,10 @@
+E:\GitProjects\EFTesting\bin\Debug\EFTesting.exe.config
+E:\GitProjects\EFTesting\bin\Debug\EFTesting.exe
+E:\GitProjects\EFTesting\bin\Debug\EFTesting.pdb
+E:\GitProjects\EFTesting\bin\Debug\EntityFramework.dll
+E:\GitProjects\EFTesting\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitProjects\EFTesting\bin\Debug\EntityFramework.xml
+E:\GitProjects\EFTesting\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitProjects\EFTesting\obj\Debug\EFTesting.csprojResolveAssemblyReference.cache
+E:\GitProjects\EFTesting\obj\Debug\EFTesting.exe
+E:\GitProjects\EFTesting\obj\Debug\EFTesting.pdb
