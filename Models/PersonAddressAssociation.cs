@@ -30,6 +30,13 @@ namespace EFTesting.Models
 
         [ForeignKey("AddressId")]
         public virtual Address PersonAddress { get; set; }
+
+        [ForeignKey("PersonEntityId")]
+        public virtual Person Person { get; set; }
+
+        [ForeignKey("AddressTypeId")]
+        public virtual AddressType AddressType { get; set; }
+
         
     }
 }

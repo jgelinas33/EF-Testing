@@ -22,5 +22,7 @@ namespace EFTesting.Models
         public int AddressTypeId { get; set; }
         public string Name { get; set; }
         public DateTime ModifiedDate { get; set; }
+
+
     }
 }

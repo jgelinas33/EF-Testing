@@ -25,6 +25,7 @@ namespace EFTesting.Models
         public string EmailAddress { get; set; }
         public DateTime ModifiedDate { get; set; }
 
-        
+        [ForeignKey("PersonEntityId")]
+        public virtual Person Person { get; set; }
     }
 }

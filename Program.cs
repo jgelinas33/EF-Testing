@@ -13,7 +13,13 @@ namespace EFTesting
         {
             var myTestContext = new TestContext();
             
-            var addresses = (from p in myTestContext.People where p.PersonEntityId == 1 select p);
+           // var addresses = (from p in myTestContext.People where p.PersonEntityId == 1 select p);
+           // var emailAddresses = myTestContext.PersonEmailAddresses.ToList();
+
+            var personAddressAssociations =
+                (from a in myTestContext.AddressAssociations where a.AddressType.Name == "Home" select a ) ;
+
+            //var person = (from p in myTestContext.People where p.PersonEntityId == 1 select p);
         }
     }
 }

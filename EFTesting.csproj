@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\AddressType.cs" />
     <Compile Include="Models\Configuration.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\PersonAddressAssociation.cs" />

@@ -21,7 +21,5 @@ namespace EFTesting.Models
         public string PostalCode { get; set; }
         public DateTime ModifiedDate { get; set; }
 
-        
-        public virtual ICollection<PersonAddressAssociation> PeopleAddresses { get; set; }
     }
 }

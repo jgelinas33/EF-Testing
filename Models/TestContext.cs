@@ -23,7 +23,7 @@ namespace EFTesting.Models
         public virtual DbSet<Person> People { get; set; }
         public virtual DbSet<PersonEmailAddress> PersonEmailAddresses { get; set; }
         public virtual DbSet<PersonAddressAssociation> AddressAssociations { get; set; }
-        //public virtual DbSet<AddressType>AddressTypes { get; set; }
+        public virtual DbSet<AddressType>AddressTypes { get; set; }
     }
     
 }
